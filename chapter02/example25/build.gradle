@@ -69,7 +69,7 @@ def person(Closure<Person> closure){
     Person p = new Person();
     closure.delegate = p
     //委托模式优先
-    closure.setResolveStrategy(Closure.DELEGATE_FIRST);
+//    closure.setResolveStrategy(Closure.DELEGATE_FIRST);
     closure(p)
 }
 
