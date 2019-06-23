@@ -53,9 +53,9 @@ task configClosure << {
         println "thisObject:${thisObject.getClass()}"
         println "owner:${owner.getClass()}"
         println "delegate:${delegate.getClass()}"
-        personName = "张三"
-        personAge = 20
-        dumpPerson()
+//        personName = "张三"
+//        it.personAge = 20
+        it.dumpPerson()
     }
 }
 
@@ -77,10 +77,10 @@ class Person {
 def person(Closure<Person> closure){
     Person p = new Person()
     p.personName = "deleagte"
-    p.personAge = "0"
-    closure.delegate = p
+    p.personAge = 0
+//    closure.delegate = p
     //委托模式优先
-    closure.setResolveStrategy(Closure.DELEGATE_FIRST);
+//    closure.setResolveStrategy(Closure.DELEGATE_FIRST);
     closure(p)
 }
 

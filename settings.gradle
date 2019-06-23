@@ -1,22 +1,24 @@
 rootProject.name = 'android-gradle-book-code'
-//第一章项目例子定义
-include ':example02'
-project(':example02').projectDir = new File(rootDir, 'chapter01/example02')
-include ':example03'
-project(':example03').projectDir = new File(rootDir, 'chapter01/example03')
-include ':example04'
-project(':example04').projectDir = new File(rootDir, 'chapter01/example04')
-//第二章项目例子定义
-include ':example21'
-project(':example21').projectDir = new File(rootDir, 'chapter02/example21')
-include ':example22'
-project(':example22').projectDir = new File(rootDir, 'chapter02/example22')
-include ':example23'
-project(':example23').projectDir = new File(rootDir, 'chapter02/example23')
-include ':example24'
-project(':example24').projectDir = new File(rootDir, 'chapter02/example24')
-include ':example25'
-project(':example25').projectDir = new File(rootDir, 'chapter02/example25')
+////第一章项目例子定义
+//include ':example02'
+//project(':example02').projectDir = new File(rootDir, 'chapter01/example02')
+//include ':example03'
+//project(':example03').projectDir = new File(rootDir, 'chapter01/example03')
+//include ':example04'
+//project(':example04').projectDir = new File(rootDir, 'chapter01/example04')
+////第二章项目例子定义
+//include ':example21'
+//project(':example21').projectDir = new File(rootDir, 'chapter02/example21')
+//include ':example22'
+//project(':example22').projectDir = new File(rootDir, 'chapter02/example22')
+//include ':example23'
+//project(':example23').projectDir = new File(rootDir, 'chapter02/example23')
+//include ':example24'
+//project(':example24').projectDir = new File(rootDir, 'chapter02/example24')
+//include ':example25'
+//project(':example25').projectDir = new File(rootDir, 'chapter02/example25')
+//include ':example26'
+//project(':example26').projectDir = new File(rootDir, 'chapter02/example26')
 //第三章项目例子定义
 include ':example34'
 project(':example34').projectDir = new File(rootDir, 'chapter03/example34')
@@ -26,86 +28,86 @@ include ':example36'
 project(':example36').projectDir = new File(rootDir, 'chapter03/example36')
 include ':example37'
 project(':example37').projectDir = new File(rootDir, 'chapter03/example37')
-//第四章项目例子定义
-include ':example41'
-project(':example41').projectDir = new File(rootDir, 'chapter04/example41')
-include ':example42'
-project(':example42').projectDir = new File(rootDir, 'chapter04/example42')
-include ':example43'
-project(':example43').projectDir = new File(rootDir, 'chapter04/example43')
-include ':example45'
-project(':example45').projectDir = new File(rootDir, 'chapter04/example45')
-include ':example46'
-project(':example46').projectDir = new File(rootDir, 'chapter04/example46')
-include ':example47'
-project(':example47').projectDir = new File(rootDir, 'chapter04/example47')
-include ':example48'
-project(':example48').projectDir = new File(rootDir, 'chapter04/example48')
-include ':example49'
-project(':example49').projectDir = new File(rootDir, 'chapter04/example49')
-//第五章项目例子定义
-include ':example52'
-project(':example52').projectDir = new File(rootDir, 'chapter05/example52')
-include ':example53'
-project(':example53').projectDir = new File(rootDir, 'chapter05/example53')
-//第六章项目例子定义
-include ':example62'
-project(':example62').projectDir = new File(rootDir, 'chapter06/example62')
-include ':example63'
-project(':example63').projectDir = new File(rootDir, 'chapter06/example63')
-include ':example64'
-project(':example64').projectDir = new File(rootDir, 'chapter06/example64')
-include ':example65'
-project(':example65').projectDir = new File(rootDir, 'chapter06/example65')
-include ':example68app'
-project(':example68app').projectDir = new File(rootDir, 'chapter06/example68/app')
-include ':example68base'
-project(':example68base').projectDir = new File(rootDir, 'chapter06/example68/base')
-include ':example69'
-project(':example69').projectDir = new File(rootDir, 'chapter06/example69')
-include ':example610'
-project(':example610').projectDir = new File(rootDir, 'chapter06/example610')
-//第七章项目例子定义
-include ':example73'
-project(':example73').projectDir = new File(rootDir, 'chapter07/example73')
-include ':example74'
-project(':example74').projectDir = new File(rootDir, 'chapter07/example74')
-//第八章项目例子定义
-include ':example82'
-project(':example82').projectDir = new File(rootDir, 'chapter08/example82')
-//第九章项目例子定义
-include ':example91'
-project(':example91').projectDir = new File(rootDir, 'chapter09/example91')
-include ':example92'
-project(':example92').projectDir = new File(rootDir, 'chapter09/example92')
-include ':example93'
-project(':example93').projectDir = new File(rootDir, 'chapter09/example93')
-include ':example94'
-project(':example94').projectDir = new File(rootDir, 'chapter09/example94')
-include ':example95'
-project(':example95').projectDir = new File(rootDir, 'chapter09/example95')
-include ':example96'
-project(':example96').projectDir = new File(rootDir, 'chapter09/example96')
-include ':example97'
-project(':example97').projectDir = new File(rootDir, 'chapter09/example97')
-include ':example911'
-project(':example911').projectDir = new File(rootDir, 'chapter09/example911')
-include ':example912'
-project(':example912').projectDir = new File(rootDir, 'chapter09/example912')
-//第十一章项目例子定义
-include ':example112'
-project(':example112').projectDir = new File(rootDir, 'chapter11/example112')
-include ':example113'
-project(':example113').projectDir = new File(rootDir, 'chapter11/example113')
-//第十二章项目例子定义
-include ':example122'
-project(':example122').projectDir = new File(rootDir, 'chapter12/example122')
-include ':example123'
-project(':example123').projectDir = new File(rootDir, 'chapter12/example123')
-include ':example126'
-project(':example126').projectDir = new File(rootDir, 'chapter12/example126')
-//第十三章项目例子定义
-include ':example131'
-project(':example131').projectDir = new File(rootDir, 'chapter13/example131')
-include ':example132'
-project(':example132').projectDir = new File(rootDir, 'chapter13/example132')
+////第四章项目例子定义
+//include ':example41'
+//project(':example41').projectDir = new File(rootDir, 'chapter04/example41')
+//include ':example42'
+//project(':example42').projectDir = new File(rootDir, 'chapter04/example42')
+//include ':example43'
+//project(':example43').projectDir = new File(rootDir, 'chapter04/example43')
+//include ':example45'
+//project(':example45').projectDir = new File(rootDir, 'chapter04/example45')
+//include ':example46'
+//project(':example46').projectDir = new File(rootDir, 'chapter04/example46')
+//include ':example47'
+//project(':example47').projectDir = new File(rootDir, 'chapter04/example47')
+//include ':example48'
+//project(':example48').projectDir = new File(rootDir, 'chapter04/example48')
+//include ':example49'
+//project(':example49').projectDir = new File(rootDir, 'chapter04/example49')
+////第五章项目例子定义
+//include ':example52'
+//project(':example52').projectDir = new File(rootDir, 'chapter05/example52')
+//include ':example53'
+//project(':example53').projectDir = new File(rootDir, 'chapter05/example53')
+////第六章项目例子定义
+//include ':example62'
+//project(':example62').projectDir = new File(rootDir, 'chapter06/example62')
+//include ':example63'
+//project(':example63').projectDir = new File(rootDir, 'chapter06/example63')
+//include ':example64'
+//project(':example64').projectDir = new File(rootDir, 'chapter06/example64')
+//include ':example65'
+//project(':example65').projectDir = new File(rootDir, 'chapter06/example65')
+//include ':example68app'
+//project(':example68app').projectDir = new File(rootDir, 'chapter06/example68/app')
+//include ':example68base'
+//project(':example68base').projectDir = new File(rootDir, 'chapter06/example68/base')
+//include ':example69'
+//project(':example69').projectDir = new File(rootDir, 'chapter06/example69')
+//include ':example610'
+//project(':example610').projectDir = new File(rootDir, 'chapter06/example610')
+////第七章项目例子定义
+//include ':example73'
+//project(':example73').projectDir = new File(rootDir, 'chapter07/example73')
+//include ':example74'
+//project(':example74').projectDir = new File(rootDir, 'chapter07/example74')
+////第八章项目例子定义
+//include ':example82'
+//project(':example82').projectDir = new File(rootDir, 'chapter08/example82')
+////第九章项目例子定义
+//include ':example91'
+//project(':example91').projectDir = new File(rootDir, 'chapter09/example91')
+//include ':example92'
+//project(':example92').projectDir = new File(rootDir, 'chapter09/example92')
+//include ':example93'
+//project(':example93').projectDir = new File(rootDir, 'chapter09/example93')
+//include ':example94'
+//project(':example94').projectDir = new File(rootDir, 'chapter09/example94')
+//include ':example95'
+//project(':example95').projectDir = new File(rootDir, 'chapter09/example95')
+//include ':example96'
+//project(':example96').projectDir = new File(rootDir, 'chapter09/example96')
+//include ':example97'
+//project(':example97').projectDir = new File(rootDir, 'chapter09/example97')
+//include ':example911'
+//project(':example911').projectDir = new File(rootDir, 'chapter09/example911')
+//include ':example912'
+//project(':example912').projectDir = new File(rootDir, 'chapter09/example912')
+////第十一章项目例子定义
+//include ':example112'
+//project(':example112').projectDir = new File(rootDir, 'chapter11/example112')
+//include ':example113'
+//project(':example113').projectDir = new File(rootDir, 'chapter11/example113')
+////第十二章项目例子定义
+//include ':example122'
+//project(':example122').projectDir = new File(rootDir, 'chapter12/example122')
+//include ':example123'
+//project(':example123').projectDir = new File(rootDir, 'chapter12/example123')
+//include ':example126'
+//project(':example126').projectDir = new File(rootDir, 'chapter12/example126')
+////第十三章项目例子定义
+//include ':example131'
+//project(':example131').projectDir = new File(rootDir, 'chapter13/example131')
+//include ':example132'
+//project(':example132').projectDir = new File(rootDir, 'chapter13/example132')
